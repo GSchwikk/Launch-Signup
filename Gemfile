@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
+ruby '2.1.5'
 gem 'rails', '4.2.5'
 gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
@@ -37,3 +37,6 @@ group :test do
   gem 'launchy'
   gem 'selenium-webdriver'
 end
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
