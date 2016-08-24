@@ -19,7 +19,7 @@ gem 'bootstrap-sass'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'simple_form'
-gem 'sucker_punch'
+gem 'sucker_punch', '1.6.0'
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
