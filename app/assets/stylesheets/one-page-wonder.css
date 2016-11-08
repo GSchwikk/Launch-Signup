@@ -144,15 +144,48 @@ footer {
 
 @media(max-width:640px) {
     .headline {
-        padding: 75px 0 25px 0;
+        padding: 10px 0 10px 0;
+        margin: 0px;
+        height: 400px;
     }
+
+    .headline div.row{
+        height: 30px;
+    }
+
+
 
     .headline h1 {
         font-size: 60px;
     }
 
     .headline h2 {
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    .headline h4 {
+        font-size: 15px;
+    }
+
+    .simple_form.new_visitor {
+        height: 50px;
+    }
+
+    .form-centered{
+        margin: 0px;
+        height: 20px;
+    }
+
+    .signup{
+        margin-top: 0px;
+    }
+
+    .row div{
+        height: 20px;
+    }
+
+    .headline div.col-sm-8 {
+        height: 1px;
     }
 }
 
